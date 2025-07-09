@@ -1,0 +1,3 @@
+command one for http : python3 blackrage.py http dancecase.com -p 80 -t 1000
+
+command 2nd for https: python3 blackrage.py https contentcloneai.com -p 443 -t 1000
